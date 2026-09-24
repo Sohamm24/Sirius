@@ -156,9 +156,6 @@ const CommandCenterBanner: React.FC<CommandCenterBannerProps> = ({
                 Process Completed
               </span>
             </div>
-            <span className="text-[10px] text-[#38BDF8] bg-[#38BDF8]/10 border border-[#38BDF8]/30 px-2 py-0.5 rounded font-bold">
-              View Log &rarr;
-            </span>
           </div>
 
           <div className="mt-3 flex items-baseline justify-between">
@@ -190,9 +187,6 @@ const CommandCenterBanner: React.FC<CommandCenterBannerProps> = ({
                 Process Escalated
               </span>
             </div>
-            <span className="text-[10px] text-[#EC4899] bg-[#EC4899]/10 border border-[#EC4899]/30 px-2 py-0.5 rounded font-bold">
-              View Queue &rarr;
-            </span>
           </div>
 
           <div className="mt-3 flex items-baseline justify-between">
@@ -237,7 +231,6 @@ const CommandCenterBanner: React.FC<CommandCenterBannerProps> = ({
                 <span className="w-2.5 h-2.5 rounded-full bg-[#EC4899]" />
                 <span className="text-[#737373]">Escalated</span>
               </div>
-              <span className="text-[10px] text-[#38BDF8] underline font-medium">Expand Analytics</span>
             </div>
           </div>
 
